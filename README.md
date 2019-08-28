@@ -10,13 +10,13 @@ Follow the following directions:
 
 ```
 1. Clone this repo. => git clone https://github.com/tonebase/tonebase-Digest-Creator
-1. Make edits to DigestData.json as needed
-1. Navigate to the folder containing the index.html file in Terminal (lot of cd'ing, etc.)
-1. Start a local server with the following script: python -m SimpleHTTPServer 8000
-1. Navigate to http://localhost:8000
-1. You will see a preview of the newsletter/digest
-1. Wait 4-5 seconds - a new tab will open with the HTML data
-1. Make edits to the DigestData.json and keep refreshing the page to see the preview + get HTML
+2. Make edits to DigestData.json as needed
+3. Navigate to the folder containing the index.html file in Terminal (lot of cd'ing, etc.)
+4. Start a local server with the following script: python -m SimpleHTTPServer 8000
+5. Navigate to http://localhost:8000
+6. You will see a preview of the newsletter/digest
+7. Wait 4-5 seconds - a new tab will open with the HTML data
+8. Make edits to the DigestData.json and keep refreshing the page to see the preview + get HTML
 ```
 
 This will do everything for you in terms of preview + generating HTML. Scheduling, batching and sending is another animal and we have other guides (or will have other guides) for that!
