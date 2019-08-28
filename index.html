@@ -9,7 +9,7 @@
       <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>The Piano Digest</title>
-      <style>
+      <style data-premailer="ignore">
         body {
           margin: 0 !important;
         }
@@ -78,7 +78,7 @@
           color: #e14f3d;
         }
       </style>
-      <style>
+      <style data-premailer="ignore">
         a[x-apple-data-detectors="true"] {
           text-decoration: none !important;
           color: inherit !important;
@@ -234,7 +234,7 @@
         }
       </style>
       <!--[if (mso)|(IE)]>
-        <style type="text/css">
+        <style type="text/css" data-premailer="ignore">
           table {
             border-collapse: collapse !important;
             mso-table-lspace: 0pt !important;
@@ -268,7 +268,7 @@
         </style>
       <![endif]-->
       <!--[if mso]>
-        <style type="text/css">
+        <style type="text/css" data-premailer="ignore">
           ol,
           ul {
             margin-left: 25px !important;
@@ -632,21 +632,24 @@
             newWindow.document.open();
             newWindow.document.write(
               `<body>
-                                                        &lt;html&gt;
-                                                        ${$("html")
-                                                          .html()
-                                                          .toString()
-                                                          .replace(
-                                                            /&/g,
-                                                            "&amp;"
-                                                          )
-                                                          .replace(/</g, "&lt;")
-                                                          .replace(
-                                                            />/g,
-                                                            "&gt;"
-                                                          )}
-                                                        &lt;/html&gt;
-                                                    </body>`
+                                                                &lt;html&gt;
+                                                                ${$("html")
+                                                                  .html()
+                                                                  .toString()
+                                                                  .replace(
+                                                                    /&/g,
+                                                                    "&amp;"
+                                                                  )
+                                                                  .replace(
+                                                                    /</g,
+                                                                    "&lt;"
+                                                                  )
+                                                                  .replace(
+                                                                    />/g,
+                                                                    "&gt;"
+                                                                  )}
+                                                                &lt;/html&gt;
+                                                            </body>`
             );
             newWindow.document.close();
           }, 500);
