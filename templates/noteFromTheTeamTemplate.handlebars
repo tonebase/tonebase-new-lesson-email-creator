@@ -29,12 +29,12 @@
             <p style="margin: 0 0 12px 0;">
               <span
                 style="color: #cccccc; font-family: Helvetica, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; &#10;background-color: #101012; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;"
-                >Welcome to the Piano Digest!</span
+                >{{ intro }}</span
               ><br />
             </p>
             <p>{{ text }}</p>
             <p>
-              Peace, Love &amp; Glissando's,
+              {{sign_off}},
               <span
                 style="display:block;padding-top:2px;"
               ></span>
@@ -45,31 +45,41 @@
                 {{ position }}
               </em>
             </p>
-            <p style="margin: 0 0 12px 0;">
-              <em
-                style="color: #cccccc; font-family: Helvetica, sans-serif; font-size: 16px; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; &#10;text-decoration-color: initial; background-color: #101012;"
-                >P.S. Stay up to date with new
-                productions by following our
-                <a
-                  style="color: #ffffff;border-bottom:1px solid #e14f3d;text-decoration:none"
-                  href="#"
-                  target="_blank"
-                  id=""
-                  >Facebook page</a
-                >
-                and
-                <a
-                  href="#"
-                  id="m_-5314186256273400318m_7183077176345026471m_-8989063377186313255m_-5709010331021647453"
-                  target="_blank"
-                  data-saferedirecturl="https://www.google.com/url?q=http://go.crunchbase.com/Tz6JL000d0000Jt40Q006A0&amp;source=gmail&amp;ust=1542841691201000&amp;usg=AFQjCNGovqgRDfHbPr-ozLueKpD7e-vopg"
-                  style="color: #ffffff;border-bottom:1px solid #e14f3d;text-decoration:none;"
-                  >Instagram</a
-                >
-                account!
-              </em>
+            <!-- ****************************** -->
+            <!-- ****************************** -->
+            <!-- ****************************** -->
+            <!-- PIANO OUTRO -->
+            <!-- ****************************** -->
+            <!-- ****************************** -->
+            <!-- ****************************** -->
+            {{#if isPiano}}
+              <p style="margin: 0 0 12px 0;">
+                <em
+                  style="color: #cccccc; font-family: Helvetica, sans-serif; font-size: 16px; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; &#10;text-decoration-color: initial; background-color: #101012;"
+                  >P.S. Stay up to date with new
+                  productions by following our
+                  <a
+                    style="color: #ffffff;border-bottom:1px solid #e14f3d;text-decoration:none"
+                    href="#"
+                    target="_blank"
+                    id=""
+                    >Facebook page</a
+                  >
+                  and
+                  <a
+                    href="#"
+                    id="m_-5314186256273400318m_7183077176345026471m_-8989063377186313255m_-5709010331021647453"
+                    target="_blank"
+                    style="color: #ffffff;border-bottom:1px solid #e14f3d;text-decoration:none;"
+                    >Instagram</a
+                  >
+                  account!
+                </em>
+                <br />
+              </p>
+            {{else}}
               <br />
-            </p>
+            {{/if}}
           </div>
         </div>
       </td>

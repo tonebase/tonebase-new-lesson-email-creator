@@ -10,13 +10,24 @@ jqueryNoConflict(document).ready(function() {
 function retriveData() {
   var dataSource = "DigestData.json";
 
+  // jqueryNoConflict.getJSON(dataSource, renderPreheaderTemplate);
   jqueryNoConflict.getJSON(dataSource, renderMainLogoTemplate);
   jqueryNoConflict.getJSON(dataSource, renderEmailMetadataTemplate);
   jqueryNoConflict.getJSON(dataSource, renderNoteFromTheTeamTemplate);
   jqueryNoConflict.getJSON(dataSource, renderFullWidthBlockTemplate);
   jqueryNoConflict.getJSON(dataSource, renderTwoColBlocksTemplate);
   jqueryNoConflict.getJSON(dataSource, renderImageOfTheWeekTemplate);
+  jqueryNoConflict.getJSON(dataSource, renderEmailFooterTemplate);
 }
+
+// function renderPreheaderTemplate(data) {
+//   handlebarsDebugHelper();
+//   renderHandlebarsTemplate(
+//     "emailPreheaderTemplate.handlebars",
+//     "#preheader-insert",
+//     data
+//   );
+// }
 
 function renderMainLogoTemplate(data) {
   handlebarsDebugHelper();
@@ -68,11 +79,20 @@ function renderImageOfTheWeekTemplate(data) {
   );
 }
 
+function renderEmailFooterTemplate(data) {
+  handlebarsDebugHelper();
+  renderHandlebarsTemplate(
+    "emailFooterTemplate.handlebars",
+    "#footer-insert",
+    data
+  );
+}
+
 // render handlebars templates via ajax
 function getTemplateAjax(path, callback) {
   var source, template;
   jqueryNoConflict.ajax({
-    url: path,
+    url: `/templates/${path}`,
     success: function(data) {
       source = data;
       template = Handlebars.compile(source);

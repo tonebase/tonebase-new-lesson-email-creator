@@ -1,19 +1,25 @@
 {
   "mainData": [
     {
+      "isPiano": false,
       "logo_link": "https://tonebase.co/piano",
-      "email_date": "August 28th, 2019"
+      "email_date": "August 28th, 2019",
+      "preheader_text": "This text will appear as the preview in email clients"
     }
   ],
   "noteFromTheTeam": [
     {
+      "isPiano": false,
+      "intro": "Welcome to the Piano Digest!",
       "text": "weifnweofhwoi",
+      "sign_off": "Peace, Love & A-M-I Scales,",
       "author": "Ben Laude",
       "position": "Head of Piano | tonebase"
     }
   ],
   "fullWidthBlocks": [
     {
+      "isPiano": false,
       "href": "AAA",
       "image_src": "https://ci5.googleusercontent.com/proxy/mmRp2p_pRHQcpMSPXxs6HYA3HIJ0Ttc6ST1NcM38kwmJVE56LmOGmerSnHXZlRqCCNsk5BmNYDbH3cIDYQOZKHS0oKBpEtvT8C6hv9iQebq9gq1mENiz0Zp9Apcye9GWRwVb7R_5gMNhDdDfE_Y=s0-d-e1-ft#https://pages.crunchbase.com/rs/976-JJA-800/images/Screen+Shot+2019-08-16+at+2.37.51+PM.png",
       "title": "AAAA",
@@ -23,12 +29,13 @@
   ],
   "twoColBlocks": [
     {
+      "isPiano": false,
       "block_1_href": "AAAA",
       "block_1_image_src": "https://ci6.googleusercontent.com/proxy/bxHSySgHedeyIqd53YyLTKgEpG_HG4X-_3HLnIu51BR4JMymhCTIJiLSGMUzxqulrEk6gIsZPoJO2MhEEnQNT1-NyAk6SQ7NuTgoxRntA_0GzPgwgdp4CcTeVotN3uP7pjppl0OIs4tzMoKe8061mWMUHbbL=s0-d-e1-ft#http://news.crunchbase.com/wp-content/uploads/2019/08/katherine-chase-0DtoVEDaJbs-unsplash-th.jpeg",
       "block_1_title": "AAAA",
       "block_1_description": "AAAA",
       "block_1_button_text": "AAAA",
-      "=== END BLOCK ONE ===": true,
+      "=== END BLOCK ONE ===": false,
       "block_2_href": "AAAA",
       "block_2_image_src": "https://ci6.googleusercontent.com/proxy/bxHSySgHedeyIqd53YyLTKgEpG_HG4X-_3HLnIu51BR4JMymhCTIJiLSGMUzxqulrEk6gIsZPoJO2MhEEnQNT1-NyAk6SQ7NuTgoxRntA_0GzPgwgdp4CcTeVotN3uP7pjppl0OIs4tzMoKe8061mWMUHbbL=s0-d-e1-ft#http://news.crunchbase.com/wp-content/uploads/2019/08/katherine-chase-0DtoVEDaJbs-unsplash-th.jpeg",
       "block_2_title": "AAAA",
@@ -38,6 +45,7 @@
   ],
   "imageOfTheWeek": [
     {
+      "isPiano": false,
       "section_title": "Image Of The Week",
       "href": "aaa",
       "image_src": "https://ci4.googleusercontent.com/proxy/aqhbcoHQBPJckg11wMli1AhfiovnyPYsgPFxQpFPwlRQy0jJKSdZq3iBk3Y8-4jL3J77mZPm8E_t40-R-iVpyOrLcxLN1bAvgmoH0WqGAUTvEf0rvGC1hjJG9FnpM33NyxpIrn_C8QURr9OKSWsX=s0-d-e1-ft#https://pages.crunchbase.com/rs/976-JJA-800/images/Screen+Shot+2019-08-16+at+12.39.29+PM.png",
