@@ -1,0 +1,54 @@
+{{debug}}
+{{#mainData}}
+{{#if showHTML}}
+<script>
+  function stripScripts() {
+    // Remove scripts
+    $("#scripts").remove();
+
+    var headHTML = $("#coreHead").html();
+    $("#coreHead").remove();
+
+    var bodyHTML = $("body").html();
+
+    $("html").empty();
+
+    var newHead = document.createElement("head");
+    $(newHead).append(headHTML);
+    $("html").append(newHead);
+
+    var newBody = document.createElement("body");
+    $(newBody).append(bodyHTML);
+    $("html").append(newBody);
+  }
+
+  setTimeout(function() {
+    stripScripts();
+
+    setTimeout(function() {
+      var newWindow = window.open();
+      newWindow.document.open();
+      newWindow.document.write(
+        `<body>
+                                                  &lt;html&gt;
+                                                  ${$("html")
+                                                    .html()
+                                                    .toString()
+                                                    .replace(
+                                                      /&/g,
+                                                      "&amp;"
+                                                    )
+                                                    .replace(/</g, "&lt;")
+                                                    .replace(
+                                                      />/g,
+                                                      "&gt;"
+                                                    )}
+                                                  &lt;/html&gt;
+                                              </body>`
+      );
+      newWindow.document.close();
+    }, 500);
+  }, 2500);
+</script>
+{{/if}}
+{{/mainData}}

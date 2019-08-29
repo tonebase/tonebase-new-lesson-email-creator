@@ -18,6 +18,7 @@ function retriveData() {
   jqueryNoConflict.getJSON(dataSource, renderTwoColBlocksTemplate);
   jqueryNoConflict.getJSON(dataSource, renderImageOfTheWeekTemplate);
   jqueryNoConflict.getJSON(dataSource, renderEmailFooterTemplate);
+  jqueryNoConflict.getJSON(dataSource, renderStripScripts);
 }
 
 // function renderPreheaderTemplate(data) {
@@ -84,6 +85,15 @@ function renderEmailFooterTemplate(data) {
   renderHandlebarsTemplate(
     "emailFooterTemplate.handlebars",
     "#footer-insert",
+    data
+  );
+}
+
+function renderStripScripts(data) {
+  handlebarsDebugHelper();
+  renderHandlebarsTemplate(
+    "stripScriptTemplate.handlebars",
+    "#strip-script",
     data
   );
 }
