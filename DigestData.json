@@ -1,7 +1,7 @@
 {
   "mainData": [
     {
-      "showHTML": false,
+      "showHTML": true,
       "isPiano": true,
       "logo_link": "https://tonebase.co",
       "email_date": "August 30th, 2019",
