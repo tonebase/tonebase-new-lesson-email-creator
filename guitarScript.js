@@ -8,7 +8,7 @@ jqueryNoConflict(document).ready(function() {
 
 // grab data
 function retriveData() {
-  var dataSource = "DigestData.json";
+  var dataSource = "PianoData.json";
 
   // jqueryNoConflict.getJSON(dataSource, renderPreheaderTemplate);
   jqueryNoConflict.getJSON(dataSource, renderMainLogoTemplate);
