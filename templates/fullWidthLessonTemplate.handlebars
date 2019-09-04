@@ -1,6 +1,7 @@
 {{debug}}
 
-{{#fullWidthBlocks}}
+{{#fullWidthLessons}}
+{{#if isShown}}
 <table
   class="mktoModule section-hero contents"
   id="module-fullwidth-story"
@@ -131,6 +132,10 @@
             </p>
           </div>
         </div>
+        <div
+          class="spacer"
+          style="mso-line-height-rule:exactly;font-size:10px;line-height:10px;height:10px;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;display:block;"
+        ></div>
         <table
           class="buttonwrapper align-left"
           align="left"
@@ -148,7 +153,7 @@
                 <a
                   href="{{ href }}"
                   style="border-top-width:10px;border-top-style:solid;border-top-color:#E14F3D;border-bottom-width:10px;border-bottom-style:solid;border-bottom-color:#E14F3D;border-left-width:15px;border-left-style:solid;border-left-color:#E14F3D;border-right-width:15px;border-right-style:solid;border-right-color:#E14F3D;color:#FFFFFF;display:inline-block;text-decoration:none;border-radius:4px;"
-                  >{{ button_text }}</a
+                  >{{ button_text }} &rarr;</a
                 >
               </td>
             </tr>
@@ -158,4 +163,9 @@
     </tr>
   </tbody>
 </table>
-{{/fullWidthBlocks}}
+<div
+  class="spacer"
+  style="mso-line-height-rule:exactly;font-size:10px;line-height:10px;height:10px;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;display:block;"
+></div>
+{{/if}}
+{{/fullWidthLessons}}

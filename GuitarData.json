@@ -1,63 +1,125 @@
 {
   "mainData": [
     {
-      "showHTML": true,
-      "isPiano": true,
+      "showHTML": false,
+      "isPiano": false,
       "logo_link": "https://tonebase.co",
       "email_date": "August 30th, 2019",
-      "preheader_text": "Arie Vardi teaches Legato & Cantabile, Louis Schwizgebel on Beethoven, and MORE in this first edition of the Piano Digest!"
+      "preheader_text": "Marcin Dylla talks shop, Zoran Dukic teaches Jose Sonata, and did we forget to mention... Nightingale is LIVE!"
     }
   ],
   "noteFromTheTeam": [
     {
-      "isPiano": true,
-      "intro": "Welcome to the very first edition of the tonebase Piano Digest!",
+      "isShown": true,
+      "isPiano": false,
+      "intro": "Welcome to edition #32 of the tonebase Guitar Digest!",
       "paragraph": [
-        "My name is Chris, and I’m a classical guitarist and one of the founders of tonebase. By now, you should have met Ben, the pianist, director, and classical music buff leading the development of this brand-new (and rapidly growing) community of classical pianists!",
-        "So why am I – a classical guitarist – writing the first Piano Digest note? Well, to put it frankly… Ben’s a little busy right now. At this moment, he’s on his third of 18 (😱) production days we have scheduled over the next three weeks! That’s a total of 12 new artists teaching for tonebase Piano including John O’Conor, Simone Dinnerstein, Ursula Oppens, and more. He’ll have a moment next week to share updates on how his trip is going – but for now, you’re stuck with me!",
-        "Aside from providing updates on newly produced lessons, the other purpose of these emails is to get to know all of you! We’d love to learn a little bit about your personal journey with the piano as well as who or what you’d like to see taught on tonebase in the future. Just hit “Reply” and let us know!",
-        "Anyway, that’s all from me for now – enjoy the lesson previews and sneak peaks below!"
+        "It’s been another exciting week here at tonebase HQ. We’re proud (and frankly relieved) to announce that Nightingale is now LIVE! You heard me right – it’s really there. Check it out for yourself: tonebase.co We really appreciate your patience and want to thank you for hanging in there as we – well, let’s be honest, Abhi – overcame one technical roadblock after another. However, we’re quite proud of the result as well as all the new content that accompanies it, so please check it out and let us know what you think.",
+        "Hot on the tail of Nightingale, we’ll be rolling out some new features in the next couple weeks. One of the features (which I alluded to last week) is called “Workouts” and does exactly what it sounds like! It’s already built and in the testing process, and we can’t wait to get it out to all of you.",
+        "From the content team, we’ve got a couple of great lessons coming out next week. The first is taught by the prolific Emmanuel Sowicz whose performance of Scarlatti you definitely need to check out if you haven’t already. He’ll be teaching a lesson he’s calling “Musical Grammar” that breaks down the often complicated customs of classical music and shows you how to apply them to a musical score. Then, later in the week, we’ll be sharing a lesson from the Montenegrin Duo (we’re kind of on a duo kick right now), so stay tuned for that as well!",
+        "That’s all from us for now. For those of you in America, enjoy the long Labor Day weekend. And for everyone else… enjoy your regularly scheduled weekend as well!"
       ],
       "text": "",
-      "sign_off": "Peace, Love & Glissandos",
+      "sign_off": "Peace, Love & A-M-I Scales",
       "author": "Chris Garwood",
       "position": "Co-founder | tonebase"
     }
   ],
-  "fullWidthBlocks": [
+  "fullWidthLessons": [
     {
-      "isPiano": true,
-      "href": "https://www.youtube.com/watch?v=yQ1SN2VXKOI",
-      "image_src": "https://tonebase-piano-client.s3.us-east-2.amazonaws.com/emails/pre-launch/digest/1/arie-vardi-legato-and-cantabile.png",
-      "title": "PREVIEW: ARIE VARDI ON LEGATO & CANTABILE",
-      "description": "Last month, we met up with the legendary pianist Arie Vardi at the Aspen Music Festival where he was spending the summer teaching students. Fortunately, he had a couple days off where he did, well, some more teaching… for tonebase! Enjoy this preview where he speaks about how to achieve a beautiful cantabile, ‘the #1 goal of piano playing.’",
-      "button_text": "Watch The Preview"
+      "isShown": true,
+      "isPiano": false,
+      "href": "https://medium.com/tonebase/overcoming-stage-fright-performance-anxiety-tonebase-tips-44805e0629fe",
+      "image_src": "https://tonebase-newsletter.s3.amazonaws.com/issues/assets/GuitarDigest/issue32/stage-fright-header.png",
+      "title": "Featured Blog: Overcoming Stage Fright & Performance Anxiety",
+      "description": "Stage fright is the mentally tyrannical side of playing music and it is a fear that affects most of us. Whether we are getting up on stage at Carnegie Hall or in front of our friends at an after school concert, the adrenaline rush can make us feel like we are terrified of playing. A lot of people say that stage fright will always affect us, but I’ve come to realize that isn’t true.",
+      "button_text": "Read More"
     }
   ],
-  "twoColBlocks": [
+  "twoColLessons": [
     {
-      "isPiano": true,
-      "block_1_href": "https://www.facebook.com/tonebasepiano/videos/499219444236538/",
-      "block_1_image_src": "https://tonebase-piano-client.s3.us-east-2.amazonaws.com/emails/pre-launch/digest/1/louis-schwizgebel-beethoven.png",
-      "block_1_title": "PREVIEW: LOUIS SCHWIZGEBEL TEACHES BEETHOVEN",
-      "block_1_description": "Beethoven always made C Major sound so thrilling, and his First Piano Concerto is no exception. Of course, it takes a virtuoso like Louis Schwizgebel to really bring out the excitement – so we're lucky to have him share his knowledge and insights on the concerto for tonebase Piano.",
-      "block_1_button_text": "Watch The Preview",
+      "isShown": true,
+      "isPiano": false,
+      "block_1_href": "https://tonebase.co/lessons/preview/zoran-dukic-teaches-sonata-movement-one-jose",
+      "block_1_image_src": "https://tonebase-newsletter.s3.amazonaws.com/issues/assets/GuitarDigest/issue32/zoran-dukic-on-jose-sonata.jpg",
+      "block_1_title": "Zoran Dukic Teaches Sonata Mvt. 1 (José)",
+      "block_1_description": "After its publication in 1990, Zoran was one of the first guitarists to get his hands on the now famous Jose Sonata. In his NEW lesson, Zoran shares everything he's learned from almost 30 years of playing this masterpiece!",
+      "block_1_button_text": "Watch The Lesson",
       "=== END BLOCK ONE ===": false,
-      "block_2_href": "https://www.instagram.com/p/B0wYPXGh2eE/",
-      "block_2_image_src": "https://tonebase-piano-client.s3.us-east-2.amazonaws.com/emails/pre-launch/digest/1/leann-osterkamp-piano-production.png",
-      "block_2_title": "A TYPICAL DAY AT THE OFFICE",
-      "block_2_description": "As musicians ourselves, we’re used to sitting on the other side of the camera – where the piano is… However, after three months and almost 100 lessons, this is a view we’ve gotten used to as well! We’re constantly sharing our behind-the-scenes clips over on our Instagram page, so you can stay up to speed as we build the new platform!",
-      "block_2_button_text": "See More Photos"
+      "block_2_href": "https://tonebase.co/artists/MarcinDylla",
+      "block_2_image_src": "https://tonebase-newsletter.s3.amazonaws.com/issues/assets/GuitarDigest/issue32/marcin-dylla-interview.jpg",
+      "block_2_title": "Interview With Marcin Dylla (Miami, 2019)",
+      "block_2_description": "",
+      "block_2_button_text": "Watch The Interview"
+    },
+    {
+      "isShown": true,
+      "isPiano": false,
+      "block_1_href": "https://tonebase.co/lessons/preview/giulia-ballare-teaches-fake-nails-technique-lesson",
+      "block_1_image_src": "https://tonebase-newsletter.s3.amazonaws.com/issues/assets/GuitarDigest/issue32/giulia-ballare-fake-nails.png",
+      "block_1_title": "Giulia Ballare On Fake Nails",
+      "block_1_description": "If you struggle with your natural nail or want to be prepared for the next time it breaks, this lesson is for you.",
+      "block_1_button_text": "Watch The Lesson",
+      "=== END BLOCK ONE ===": false,
+      "block_2_href": "https://tonebase.co/lessons/preview/celil-refik-kaya-teaches-koyunbaba-by-domeniconi",
+      "block_2_image_src": "https://tonebase-newsletter.s3.amazonaws.com/issues/assets/GuitarDigest/issue32/celil-refik-kaya-koyunbaba.png",
+      "block_2_title": "Celil Refik Kaya Teaches Koyunbaba (Domeniconi)",
+      "block_2_description": "",
+      "block_2_button_text": "Watch The Lesson"
+    },
+    {
+      "isShown": true,
+      "isPiano": false,
+      "block_1_href": "https://tonebase.co/lessons/preview/tal-hurwitz-teaches-fuoco-by-roland-dyens",
+      "block_1_image_src": "https://tonebase-newsletter.s3.amazonaws.com/issues/assets/GuitarDigest/issue32/tal-hurwitz-fuoco.png",
+      "block_1_title": "Tal Hurwitz Teaches Fuoco (Dyens)",
+      "block_1_description": "Tal shares a stabilization trick to help you effortlessly shred Fuoco and every other piece in your rep!",
+      "block_1_button_text": "Watch The Lesson",
+      "=== END BLOCK ONE ===": false,
+      "block_2_href": "https://tonebase.co/lessons/preview/gohar-vardanyan-teaches-sevilla-by-albeniz",
+      "block_2_image_src": "https://tonebase-newsletter.s3.amazonaws.com/issues/assets/GuitarDigest/issue32/gohar-vardanyan-sevilla.png",
+      "block_2_title": "Gohar Vardanyan Teaches Sevilla (Albéniz)",
+      "block_2_description": "Olé! Gohar takes Sevilla back to its roots in her insightful lesson on this Albéniz classic!",
+      "block_2_button_text": "Watch The Lesson"
     }
   ],
   "imageOfTheWeek": [
     {
-      "isPiano": true,
+      "isShown": true,
+      "isPiano": false,
       "section_title": "Image Of The Week",
-      "href": "https://www.facebook.com/tonebasepiano/videos/447036275886418/",
-      "image_src": "https://tonebase-piano-client.s3.us-east-2.amazonaws.com/emails/pre-launch/digest/1/garrick-ohlsson-piano.png",
-      "title": "GARRICK OHLSSON",
-      "description": "Garrick Ohlsson (San Francisco, August 2019)"
+      "href": "https://tonebase.co/artists/BaharOssareh",
+      "image_src": "https://tonebase-newsletter.s3.amazonaws.com/issues/assets/GuitarDigest/issue32/bahar-ossareh-production.jpg",
+      "title": "Bahar Ossareh",
+      "description": "Bahar Ossareh (Toronto, August 2019)"
+    }
+  ],
+  "fullWidthBlogs": [
+    {
+      "isShown": true,
+      "isPiano": false,
+      "href": "https://medium.com/tonebase/overcoming-stage-fright-performance-anxiety-tonebase-tips-44805e0629fe",
+      "image_src": "https://tonebase-newsletter.s3.amazonaws.com/issues/assets/GuitarDigest/issue32/stage-fright-header.png",
+      "title": "Featured Blog: Overcoming Stage Fright & Performance Anxiety",
+      "description": "Stage fright is the mentally tyrannical side of playing music and it is a fear that affects most of us. Whether we are getting up on stage at Carnegie Hall or in front of our friends at an after school concert, the adrenaline rush can make us feel like we are terrified of playing. A lot of people say that stage fright will always affect us, but I’ve come to realize that isn’t true.",
+      "button_text": "Read More"
+    }
+  ],
+  "twoColBlogs": [
+    {
+      "isShown": true,
+      "isPiano": false,
+      "block_1_href": "https://tonebase.co/lessons/preview/zoran-dukic-teaches-sonata-movement-one-jose",
+      "block_1_image_src": "https://tonebase-newsletter.s3.amazonaws.com/issues/assets/GuitarDigest/issue32/zoran-dukic-on-jose-sonata.jpg",
+      "block_1_title": "Zoran Dukic Teaches Sonata Mvt. 1 (José)",
+      "block_1_description": "After its publication in 1990, Zoran was one of the first guitarists to get his hands on the now famous Jose Sonata. In his NEW lesson, Zoran shares everything he's learned from almost 30 years of playing this masterpiece!",
+      "block_1_button_text": "Watch The Lesson",
+      "=== END BLOCK ONE ===": false,
+      "block_2_href": "https://tonebase.co/artists/MarcinDylla",
+      "block_2_image_src": "https://tonebase-newsletter.s3.amazonaws.com/issues/assets/GuitarDigest/issue32/marcin-dylla-interview.jpg",
+      "block_2_title": "Interview With Marcin Dylla (Miami, 2019)",
+      "block_2_description": "",
+      "block_2_button_text": "Watch The Interview"
     }
   ]
 }

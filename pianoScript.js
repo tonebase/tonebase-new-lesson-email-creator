@@ -10,25 +10,27 @@ jqueryNoConflict(document).ready(function() {
 function retriveData() {
   var dataSource = "PianoData.json";
 
-  // jqueryNoConflict.getJSON(dataSource, renderPreheaderTemplate);
+  jqueryNoConflict.getJSON(dataSource, renderPreheaderTemplate);
   jqueryNoConflict.getJSON(dataSource, renderMainLogoTemplate);
   jqueryNoConflict.getJSON(dataSource, renderEmailMetadataTemplate);
   jqueryNoConflict.getJSON(dataSource, renderNoteFromTheTeamTemplate);
-  jqueryNoConflict.getJSON(dataSource, renderFullWidthBlockTemplate);
-  jqueryNoConflict.getJSON(dataSource, renderTwoColBlocksTemplate);
+  jqueryNoConflict.getJSON(dataSource, renderFullWidthLessonTemplate);
+  jqueryNoConflict.getJSON(dataSource, renderTwoColLessonsTemplate);
   jqueryNoConflict.getJSON(dataSource, renderImageOfTheWeekTemplate);
+  jqueryNoConflict.getJSON(dataSource, renderFullWidthBlogTemplate);
+  jqueryNoConflict.getJSON(dataSource, renderTwoColBlogsTemplate);
   jqueryNoConflict.getJSON(dataSource, renderEmailFooterTemplate);
   jqueryNoConflict.getJSON(dataSource, renderStripScripts);
 }
 
-// function renderPreheaderTemplate(data) {
-//   handlebarsDebugHelper();
-//   renderHandlebarsTemplate(
-//     "emailPreheaderTemplate.handlebars",
-//     "#preheader-insert",
-//     data
-//   );
-// }
+function renderPreheaderTemplate(data) {
+  handlebarsDebugHelper();
+  renderHandlebarsTemplate(
+    "emailPreheaderTemplate.handlebars",
+    "#preheader-insert",
+    data
+  );
+}
 
 function renderMainLogoTemplate(data) {
   handlebarsDebugHelper();
@@ -53,20 +55,38 @@ function renderNoteFromTheTeamTemplate(data) {
   );
 }
 
-function renderFullWidthBlockTemplate(data) {
+function renderFullWidthLessonTemplate(data) {
   handlebarsDebugHelper();
   renderHandlebarsTemplate(
-    "fullWidthBlockTemplate.handlebars",
-    "#full-width-blocks",
+    "fullWidthLessonTemplate.handlebars",
+    "#full-width-lessons",
     data
   );
 }
 
-function renderTwoColBlocksTemplate(data) {
+function renderFullWidthBlogTemplate(data) {
   handlebarsDebugHelper();
   renderHandlebarsTemplate(
-    "twoColBlocksTemplate.handlebars",
-    "#two-col-blocks",
+    "fullWidthBlogTemplate.handlebars",
+    "#full-width-blogs",
+    data
+  );
+}
+
+function renderTwoColLessonsTemplate(data) {
+  handlebarsDebugHelper();
+  renderHandlebarsTemplate(
+    "twoColLessonsTemplate.handlebars",
+    "#two-col-lessons",
+    data
+  );
+}
+
+function renderTwoColBlogsTemplate(data) {
+  handlebarsDebugHelper();
+  renderHandlebarsTemplate(
+    "twoColBlogsTemplate.handlebars",
+    "#two-col-blogs",
     data
   );
 }

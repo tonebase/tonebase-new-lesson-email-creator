@@ -13,9 +13,9 @@
       "isPiano": true,
       "intro": "Welcome to the very first edition of the tonebase Piano Digest!",
       "paragraph": [
-        "My name is Chris, and I’m a classical guitarist and one of the founders of tonebase. By now, you should have met Ben, the pianist, director, and classical music buff leading the development of this brand-new (and rapidly growing) community of classical pianists!",
+        "My name is Chris, and I’m a classical guitarist and one of the founders of tonebase. By now, you should have met Ben, the pianist, director, and classical music buff leading the development of this brand-new (and rapidly growing) community of classical pianists.",
         "So why am I – a classical guitarist – writing the first Piano Digest note? Well, to put it frankly… Ben’s a little busy right now. At this moment, he’s on his third of 18 (😱) production days we have scheduled over the next three weeks! That’s a total of 12 new artists teaching for tonebase Piano including John O’Conor, Simone Dinnerstein, Ursula Oppens, and more. He’ll have a moment next week to share updates on how his trip is going – but for now, you’re stuck with me!",
-        "Aside from providing updates on newly produced lessons, the other purpose of these emails is to get to know all of you! We’d love to learn a little bit about your personal journey with the piano as well as who or what you’d like to see taught on tonebase in the future. Just hit “Reply” and let us know!",
+        "Aside from providing updates on newly produced lessons, the other purpose of these emails is to get to know all of you! We’d love to learn a little bit about your personal journey with the piano as well as who or what you’d like to see taught on tonebase in the future. Just hit “Reply” and let us know.",
         "Anyway, that’s all from me for now – enjoy the lesson previews and sneak peaks below!"
       ],
       "text": "",
@@ -24,28 +24,54 @@
       "position": "Co-founder | tonebase"
     }
   ],
-  "fullWidthBlocks": [
+  "fullWidthLessons": [
     {
       "isPiano": true,
       "href": "https://www.youtube.com/watch?v=yQ1SN2VXKOI",
       "image_src": "https://tonebase-piano-client.s3.us-east-2.amazonaws.com/emails/pre-launch/digest/1/arie-vardi-legato-and-cantabile.png",
-      "title": "PREVIEW: ARIE VARDI ON LEGATO & CANTABILE",
+      "title": "Preview: Arie Vardi On Legato & Cantabile",
       "description": "Last month, we met up with the legendary pianist Arie Vardi at the Aspen Music Festival where he was spending the summer teaching students. Fortunately, he had a couple days off where he did, well, some more teaching… for tonebase! Enjoy this preview where he speaks about how to achieve a beautiful cantabile, ‘the #1 goal of piano playing.’",
       "button_text": "Watch The Preview"
     }
   ],
-  "twoColBlocks": [
+  "fullWidthBlogs": [
+    {
+      "isPiano": true,
+      "href": "https://www.youtube.com/watch?v=yQ1SN2VXKOI",
+      "image_src": "https://tonebase-piano-client.s3.us-east-2.amazonaws.com/emails/pre-launch/digest/1/arie-vardi-legato-and-cantabile.png",
+      "title": "Preview: Arie Vardi On Legato & Cantabile",
+      "description": "Last month, we met up with the legendary pianist Arie Vardi at the Aspen Music Festival where he was spending the summer teaching students. Fortunately, he had a couple days off where he did, well, some more teaching… for tonebase! Enjoy this preview where he speaks about how to achieve a beautiful cantabile, ‘the #1 goal of piano playing.’",
+      "button_text": "Watch The Preview"
+    }
+  ],
+  "twoColLessons": [
     {
       "isPiano": true,
       "block_1_href": "https://www.facebook.com/tonebasepiano/videos/499219444236538/",
       "block_1_image_src": "https://tonebase-piano-client.s3.us-east-2.amazonaws.com/emails/pre-launch/digest/1/louis-schwizgebel-beethoven.png",
-      "block_1_title": "PREVIEW: LOUIS SCHWIZGEBEL TEACHES BEETHOVEN",
+      "block_1_title": "Preview: Louis Schwizgebel Teaches Beethoven",
       "block_1_description": "Beethoven always made C Major sound so thrilling, and his First Piano Concerto is no exception. Of course, it takes a virtuoso like Louis Schwizgebel to really bring out the excitement – so we're lucky to have him share his knowledge and insights on the concerto for tonebase Piano.",
       "block_1_button_text": "Watch The Preview",
       "=== END BLOCK ONE ===": false,
       "block_2_href": "https://www.instagram.com/p/B0wYPXGh2eE/",
       "block_2_image_src": "https://tonebase-piano-client.s3.us-east-2.amazonaws.com/emails/pre-launch/digest/1/leann-osterkamp-piano-production.png",
-      "block_2_title": "A TYPICAL DAY AT THE OFFICE",
+      "block_2_title": "A Typical Day At The Office",
+      "block_2_description": "As musicians ourselves, we’re used to sitting on the other side of the camera – where the piano is… However, after three months and almost 100 lessons, this is a view we’ve gotten used to as well! We’re constantly sharing our behind-the-scenes clips over on our Instagram page, so you can stay up to speed as we build the new platform!",
+      "block_2_button_text": "See More Photos"
+    }
+  ],
+  "twoColBlogs": [
+    {
+      "isPiano": true,
+      "block_1_href": "https://www.facebook.com/tonebasepiano/videos/499219444236538/",
+      "block_1_image_src": "https://tonebase-piano-client.s3.us-east-2.amazonaws.com/emails/pre-launch/digest/1/louis-schwizgebel-beethoven.png",
+      "block_1_title": "Preview: Louis Schwizgebel Teaches Beethoven",
+      "block_1_description": "Beethoven always made C Major sound so thrilling, and his First Piano Concerto is no exception. Of course, it takes a virtuoso like Louis Schwizgebel to really bring out the excitement – so we're lucky to have him share his knowledge and insights on the concerto for tonebase Piano.",
+      "block_1_button_text": "Watch The Preview",
+      "=== END BLOCK ONE ===": false,
+      "block_2_href": "https://www.instagram.com/p/B0wYPXGh2eE/",
+      "block_2_image_src": "https://tonebase-piano-client.s3.us-east-2.amazonaws.com/emails/pre-launch/digest/1/leann-osterkamp-piano-production.png",
+      "block_2_title": "A Typical Day At The Office",
       "block_2_description": "As musicians ourselves, we’re used to sitting on the other side of the camera – where the piano is… However, after three months and almost 100 lessons, this is a view we’ve gotten used to as well! We’re constantly sharing our behind-the-scenes clips over on our Instagram page, so you can stay up to speed as we build the new platform!",
       "block_2_button_text": "See More Photos"
     }
@@ -56,7 +82,7 @@
       "section_title": "Image Of The Week",
       "href": "https://www.facebook.com/tonebasepiano/videos/447036275886418/",
       "image_src": "https://tonebase-piano-client.s3.us-east-2.amazonaws.com/emails/pre-launch/digest/1/garrick-ohlsson-piano.png",
-      "title": "GARRICK OHLSSON",
+      "title": "Garrick Ohlsson",
       "description": "Garrick Ohlsson (San Francisco, August 2019)"
     }
   ]
