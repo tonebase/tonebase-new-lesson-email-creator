@@ -10,6 +10,7 @@
   ],
   "noteFromTheTeam": [
     {
+      "isShown": true,
       "isPiano": true,
       "intro": "Welcome to the very first edition of the tonebase Piano Digest!",
       "paragraph": [
@@ -26,6 +27,7 @@
   ],
   "fullWidthLessons": [
     {
+      "isShown": true,
       "isPiano": true,
       "href": "https://www.youtube.com/watch?v=yQ1SN2VXKOI",
       "image_src": "https://tonebase-piano-client.s3.us-east-2.amazonaws.com/emails/pre-launch/digest/1/arie-vardi-legato-and-cantabile.png",
@@ -36,6 +38,7 @@
   ],
   "fullWidthBlogs": [
     {
+      "isShown": true,
       "isPiano": true,
       "href": "https://www.youtube.com/watch?v=yQ1SN2VXKOI",
       "image_src": "https://tonebase-piano-client.s3.us-east-2.amazonaws.com/emails/pre-launch/digest/1/arie-vardi-legato-and-cantabile.png",
@@ -46,6 +49,7 @@
   ],
   "twoColLessons": [
     {
+      "isShown": true,
       "isPiano": true,
       "block_1_href": "https://www.facebook.com/tonebasepiano/videos/499219444236538/",
       "block_1_image_src": "https://tonebase-piano-client.s3.us-east-2.amazonaws.com/emails/pre-launch/digest/1/louis-schwizgebel-beethoven.png",
@@ -62,6 +66,7 @@
   ],
   "twoColBlogs": [
     {
+      "isShown": true,
       "isPiano": true,
       "block_1_href": "https://www.facebook.com/tonebasepiano/videos/499219444236538/",
       "block_1_image_src": "https://tonebase-piano-client.s3.us-east-2.amazonaws.com/emails/pre-launch/digest/1/louis-schwizgebel-beethoven.png",
@@ -78,6 +83,7 @@
   ],
   "imageOfTheWeek": [
     {
+      "isShown": true,
       "isPiano": true,
       "section_title": "Image Of The Week",
       "href": "https://www.facebook.com/tonebasepiano/videos/447036275886418/",
