@@ -2,6 +2,18 @@
 {{#data}}
 {{#if showHTML}}
 <script>
+  function addQueryString() {
+    var querystring = "utm_source=tmpemail&utm_medium=email&utm_campaign=new_lesson_email&utm_term=new-lesson&utm_content={{slug}}";
+
+    $('a').each(function() {
+      var href = $(this).attr('href');
+      if (href) {
+        href += (href.match(/\?/) ? '&' : '?') + querystring;
+        $(this).attr('href', href);
+      }
+    });
+  }
+
   function stripScripts() {
     // Remove scripts
     $("#scripts").remove();
@@ -23,6 +35,7 @@
   }
 
   setTimeout(function() {
+    addQueryString();
     stripScripts();
 
     setTimeout(function() {
