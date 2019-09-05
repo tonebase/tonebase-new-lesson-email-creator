@@ -39,7 +39,7 @@ var templates = [
 // === SUB HELPERS ===
 
 function retriveData(lessonSlug, showHTML) {
-  const dataURL = `https://tonebase-api-production.herokuapp.com/v2/lessons/preview?slug=interview-with-marcin-dylla-miami-2019`;
+  const dataURL = `//tonebase-api-production.herokuapp.com/v2/lessons/preview?slug=interview-with-marcin-dylla-miami-2019`;
 
   jqueryNoConflict.getJSON(dataURL, function(data) {
     if (data) {
@@ -158,7 +158,7 @@ function handleMetadataColor(DOMObj, lessonType) {
 
 function handleArtistOneLiner(DOMObj, artistSlug) {
   console.log("HANDLE ARTIST ONE LINER");
-  const dataURL = `http://tonebase-api-production.herokuapp.com/v2/artists/narrow?slug=${artistSlug}&property=one_liner`;
+  const dataURL = `//tonebase-api-production.herokuapp.com/v2/artists/narrow?slug=${artistSlug}&property=one_liner`;
   console.log(dataURL);
 
   jqueryNoConflict.get(dataURL, function(data) {
