@@ -42,7 +42,7 @@ function retriveData(lessonSlug, showHTML) {
   const dataURL = `//tonebase-api-production.herokuapp.com/v2/lessons/preview?slug=${lessonSlug}`;
 
   jqueryNoConflict.getJSON(dataURL, function(data) {
-    if (data) {
+    if (data && data.slug) {
       console.log("JSON =>", data);
 
       // Add show html property
