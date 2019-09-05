@@ -84,8 +84,13 @@ function renderHandlebarsTemplate(withTemplate, inElement, withData) {
 
 function getTemplateAjax(path, callback) {
   var source, template;
+
+  var prependURL = "";
+  if (window.location.href.indexOf("localhost") === -1)
+    prependURL = "https://tonebase.github.io/tonebase-new-lesson-email-creator";
+
   jqueryNoConflict.ajax({
-    url: `/templates/${path}`,
+    url: `${prependURL}/templates/${path}`,
     success: function(data) {
       source = data;
       template = Handlebars.compile(source);
