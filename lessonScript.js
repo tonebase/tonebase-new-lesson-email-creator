@@ -39,7 +39,7 @@ var templates = [
 // === SUB HELPERS ===
 
 function retriveData(lessonSlug, showHTML) {
-  const dataURL = `//tonebase-api-production.herokuapp.com/v2/lessons/preview?slug=interview-with-marcin-dylla-miami-2019`;
+  const dataURL = `//tonebase-api-production.herokuapp.com/v2/lessons/preview?slug=${lessonSlug}`;
 
   jqueryNoConflict.getJSON(dataURL, function(data) {
     if (data) {
