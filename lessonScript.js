@@ -42,33 +42,37 @@ function retriveData(lessonSlug, showHTML) {
   const dataURL = `https://tonebase-api-production.herokuapp.com/v2/lessons/preview?slug=interview-with-marcin-dylla-miami-2019`;
 
   jqueryNoConflict.getJSON(dataURL, function(data) {
-    console.log("JSON =>", data);
+    if (data) {
+      console.log("JSON =>", data);
 
-    // Add show html property
-    data.showHTML = showHTML;
+      // Add show html property
+      data.showHTML = showHTML;
 
-    // Limit the description length
-    data.description = data.description.substring(0, 280);
+      // Limit the description length
+      data.description = data.description.substring(0, 280);
 
-    // Create the wrapped data object for handlebars
-    var finalData = {
-      data: data
-    };
+      // Create the wrapped data object for handlebars
+      var finalData = {
+        data: data
+      };
 
-    // Render handlebars templates
-    templates.forEach(function(templateData) {
-      var templateName = templateData.templateName;
-      var templateId = templateData.templateId;
+      // Render handlebars templates
+      templates.forEach(function(templateData) {
+        var templateName = templateData.templateName;
+        var templateId = templateData.templateId;
 
-      if (templateName && templateId) {
-        renderHandlebarsTemplate(templateName, templateId, finalData);
-      }
-    });
+        if (templateName && templateId) {
+          renderHandlebarsTemplate(templateName, templateId, finalData);
+        }
+      });
 
-    // Fill in dyanmic info.
-    setTimeout(function() {
-      handleDynamicFields(data);
-    }, 3000);
+      // Fill in dyanmic info.
+      setTimeout(function() {
+        handleDynamicFields(data);
+      }, 3000);
+    } else {
+      alert("No data received. Check lesson slug. You entered =>", lessonSlug);
+    }
   });
 }
 
