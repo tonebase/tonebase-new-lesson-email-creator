@@ -1,5 +1,5 @@
 {{debug}}
-{{#mainData}}
+{{#data}}
 {{#if showHTML}}
 <script>
   function stripScripts() {
@@ -30,25 +30,25 @@
       newWindow.document.open();
       newWindow.document.write(
         `<body>
-                                                  &lt;html&gt;
-                                                  ${$("html")
-                                                    .html()
-                                                    .toString()
-                                                    .replace(
-                                                      /&/g,
-                                                      "&amp;"
-                                                    )
-                                                    .replace(/</g, "&lt;")
-                                                    .replace(
-                                                      />/g,
-                                                      "&gt;"
-                                                    )}
-                                                  &lt;/html&gt;
-                                              </body>`
+          &lt;html&gt;
+          ${$("html")
+            .html()
+            .toString()
+            .replace(
+              /&/g,
+              "&amp;"
+            )
+            .replace(/</g, "&lt;")
+            .replace(
+              />/g,
+              "&gt;"
+            )}
+          &lt;/html&gt;
+        </body>`
       );
       newWindow.document.close();
     }, 500);
-  }, 2500);
+  }, 5000);
 </script>
 {{/if}}
-{{/mainData}}
+{{/data}}
