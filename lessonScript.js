@@ -1,9 +1,5 @@
 var jqueryNoConflict = jQuery;
 
-// === EDIT HERE ===
-const lessonSlug = "interview-with-marcin-dylla-miami-2019";
-const showHTML = true;
-
 // === SETUP HANDLEBARS TEMPLATES ==
 var templates = [
   {
@@ -42,7 +38,7 @@ var templates = [
 
 // === SUB HELPERS ===
 
-function retriveData() {
+function retriveData(lessonSlug, showHTML) {
   const dataURL = `https://tonebase-api-production.herokuapp.com/v2/lessons/preview?slug=interview-with-marcin-dylla-miami-2019`;
 
   jqueryNoConflict.getJSON(dataURL, function(data) {
@@ -173,5 +169,11 @@ function handleArtistOneLiner(DOMObj, artistSlug) {
 // === MAIN ===
 
 jqueryNoConflict(document).ready(function() {
-  retriveData();
+  // === EDIT HERE ===
+  const lessonSlug = prompt("Please enter the lesson slug:"); // "interview-with-marcin-dylla-miami-2019";
+  const showHTML = confirm(
+    "Would you like to see the rendered HTML? [7 second delay]"
+  );
+
+  retriveData(lessonSlug, showHTML);
 });

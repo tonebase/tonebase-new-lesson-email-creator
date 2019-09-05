@@ -10,11 +10,10 @@ Follow the following directions:
 
 ```
 1. Clone this repo. => git clone https://github.com/tonebase/tonebase-new-lesson-email-creator
-2. Make edits to the lessonScript.js file, particularly looking at: 'var lessonSlug =' and 'var showHTML ='
-3. Navigate to the folder you cloned down via Terminal and hit start8000 or python -m SimpleHTTPServer 8000
-4. Open your browser to http://localhost:8000
-5. Make sure everything looks good, then switch 'var showHTML = true' from any other value
-6. Hard refresh the preview page - you will get the generated HTML
+2. Navigate to the folder you cloned down via Terminal and hit start8000 or python -m SimpleHTTPServer 8000
+3. Open your browser to http://localhost:8000
+4. Answer the prompts and that's about it...
+5. Make sure everything looks good, then type 'yes' to the show HTML prompt
 7. Test and send as needed
 ```
 
