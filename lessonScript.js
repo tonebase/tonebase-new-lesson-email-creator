@@ -49,7 +49,11 @@ function retriveData(lessonSlug, showHTML) {
       data.showHTML = showHTML;
 
       // Limit the description length
-      data.description = data.description.substring(0, 280);
+      data.description = data.description
+        .replace("<br>", "")
+        .replace("<br/>", "")
+        .replace("<br />", "")
+        .substring(0, 280);
 
       // Create the wrapped data object for handlebars
       var finalData = {
